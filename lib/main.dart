@@ -1,10 +1,16 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:meet_pet/responsive/mobile_screen_layout.dart';
 import 'package:meet_pet/responsive/responsive_layout_screen.dart';
 import 'package:meet_pet/responsive/web_screen_layout.dart';
 import 'package:meet_pet/utils/colors.dart';
 
-void main() => runApp(MyApp());
+
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override

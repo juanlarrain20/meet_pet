@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "47133563352",
+    "project_id": "meet-pet-1a60a",
+    "storage_bucket": "meet-pet-1a60a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47133563352:android:cbb22b2c8e2cb2a55cfaad",
+        "android_client_info": {
+          "package_name": "com.example.meet_pet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47133563352-5qf8tt36lgcol0bd9nmgpehuimmqnanm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIe_HGHX3Vd6UQ7i4vJgHiYMAe5SOs6Dg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47133563352-5qf8tt36lgcol0bd9nmgpehuimmqnanm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
